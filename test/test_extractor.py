@@ -35,4 +35,3 @@ def test_process_data(input_data, expected_data):
 
     # Use Pytest's assert function to check if the DataFrames are equal
     pd.testing.assert_frame_equal(result_df, expected_df)
-    # run test
